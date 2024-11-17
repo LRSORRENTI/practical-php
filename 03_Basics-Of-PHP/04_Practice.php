@@ -1,7 +1,8 @@
 <html>
+<?php $name = "Luke" ?>
 
 <head>
-    <title>My first PHP webpage</title>
+    <title><?php echo $name ?> PHP webpage</title>
 </head>
 
 <body>
@@ -32,16 +33,27 @@
     </style>
     <?php
     $date = "11-14-2024";
+    date_default_timezone_set("America/Chicago");
+    $today = date('F j Y');
+    // two ways to define a constant below
+    $this_year = date("Y");
+    $birth_year = 1992;
+    $current_age = ($this_year - $birth_year);
+    // First way:
     define("NAME", "LUKE");
     define("FAVECOLOR", "LimeGreeen");
-    $age = 29;
+    // Second way: 
+    const PI = 3.14;
+    $age = 32;
     print ("<div class='main-div'>
-    <p>Today's Date: $date</p><br>
+    <p>Today's Date: $today</p><br>
     <p>My Name: " . NAME . "</p><br>
     <p>My Favorite Color: " . FAVECOLOR . "</p><br>
     <p>My Age: $age</p><br>
+    <p>Current age $current_age </p> <br>
     </div>")
         ?>
+    <small>&copy <?php echo $this_year ?> - <?php echo $name ?></small>
 </body>
 
 </html>

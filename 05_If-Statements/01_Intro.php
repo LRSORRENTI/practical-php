@@ -60,6 +60,13 @@
         <p>The above are just two examples where PHP can assist in
             building dynamic websites
         </p>
+        <p>
+            $a = 12; <br>
+            $b = 10; <br>
+            if ($a > $b) { <br>
+            echo "Yes $a is greater than $b";
+            <br>}
+        </p>
         <?php
         $a = 12;
         $b = 10;

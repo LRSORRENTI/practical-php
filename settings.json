@@ -1,0 +1,10 @@
+{
+    "tailwindCSS.experimental.classRegex": [
+        // Match class names in PHP files
+        "(?:class\\s*=\\s*\")(.*?)(?:\")",
+        "(?:class:\\s*`)(.*?)(?:`)"
+    ],
+    "tailwindCSS.includeLanguages": {
+        "php": "html"
+    }
+}

@@ -1,17 +1,17 @@
-<div id="footer" class="cf">
-    <div class="column three">
+<div id="footer" class="flex justify-center">
+    <div class="column three text-lg">
         <strong>Phone</strong>
         888.555.1234
     </div>
-    <div class="column three">
+    <div class="column three text-lg">
         <strong>Location</strong>
         123 Main St <br>
         Louisville, KY
     </div>
-    <div class="column three last">
+    <div class="column three last text-lg">
         <strong>Hours</strong>
         <em>Tuesday - Thursday</em> <br>
-        1:00PM - 9:00PM
+        1:00PM - 9:00PM<br>
         <em>Friday - Saturday</em> <br>
         4:00PM - 11:00PM
         <em>Sunday - Monday</em> <br>

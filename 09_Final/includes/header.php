@@ -17,9 +17,9 @@
             </a>
         </div>
         <div id="nav">
-            <ul>
-                <?php include('includes/nav.php') ?>
-            </ul>
+            <?php include('includes/arrays.php'); ?>
+
+            <?php include('includes/nav.php') ?>
         </div>
     </div>
     <div class="content">

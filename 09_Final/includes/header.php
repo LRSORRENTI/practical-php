@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Franklin's Fine Dining</title>
 </head>
+
 <body id="final-example">
     <div class="wrapper">
         <div id="banner">
@@ -15,11 +18,8 @@
         </div>
         <div id="nav">
             <ul>
-                <li><a href="./index.php">Home</a></li>
-                <li><a href="./team.php">Team</a></li>
-                <li><a href="./menu.php">Menu</a></li>
-                <li><a href="./contact.php">Contact</a></li>
+                <?php include('includes/nav.php') ?>
             </ul>
         </div>
     </div>
-<div class="content">
+    <div class="content">

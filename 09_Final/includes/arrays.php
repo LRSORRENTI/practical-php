@@ -38,6 +38,28 @@ $teamMembers = array(
         "bio" => "Carlos is the Head Chef of Franklin's Fine Dining.",
         "img" => "carlos"
     )
+);
+
+$menuItems = array(
+    "club-sandwich" => array(
+        "title" => "Club Sandwich",
+        "price" => 11,
+        "blurb" => "Classic Bacon, Chicken Slices, Lettuce, Tomato, Mayo or Butter ",
+        "drink" => "Club Soda"
+    ),
+    "dill-salmon" => array(
+        "title" => "Salmon Fillet & Dill Garnish",
+        "price" => 18,
+        "blurb" => "Sockeye Salmon Fillet with fresh Dill",
+        "drink" => "White Wine"
+    ),
+    "super-salad" => array(
+        "title" => "Super Salad",
+        "price" => 14,
+        "blurb" => "Deluxe Salad with Caesar or Italian Dressing Bacon bits, Cherry Tomatoes, Cucumber, and Medallion Carrots ",
+        "drink" => "Lemon Infused Water"
+    ),
+
 )
 
 

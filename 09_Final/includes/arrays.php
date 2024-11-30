@@ -59,7 +59,12 @@ $menuItems = array(
         "blurb" => "Deluxe Salad with Caesar or Italian Dressing Bacon bits, Cherry Tomatoes, Cucumber, and Medallion Carrots ",
         "drink" => "Lemon Infused Water"
     ),
-
+    "mexican-barbacoa" => array(
+        "title" => "Mexican Barbacoa",
+        "price" => 21,
+        "blurb" => "Shredded beef or pork, corn or flour tortillas, and a tasty marinade made from a base of dried chiles. ",
+        "drink" => "Tecate Original With Lime"
+    ),
 )
 
 

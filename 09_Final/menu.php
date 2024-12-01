@@ -57,7 +57,7 @@ $menuItems = array(
             </div>
         <?php endforeach; ?>
     </ul>
-    <div id="dish-details" class="hidden flex flex-col items-center p-6 text-center">
+    <div id="dish-details" class="hidden flex-col items-center p-6 text-center">
         <!-- Dynamic Dish Details will be rendered here -->
     </div>
 </div>

@@ -56,7 +56,7 @@ if (isOpen()) {
 
 <!-- Footer Section -->
 <?php $companyName = "Pizzeria"; ?>
-<small>&copy <?php echo date("Y") ?>&nbsp<?php echo $companyName ?></small>
+<!-- <small>&copy <?php echo date("Y") ?>&nbsp<?php echo $companyName ?></small> -->
 </div>
 </div>
 <div class="copyright-info">
